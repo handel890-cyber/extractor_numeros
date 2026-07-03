@@ -8,8 +8,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 # Configuración de página
-st.set_page_config(page_title="Control de Trenes Veloz", layout="wide", page_icon="⚡")
-st.title("⚡ Verificador de Trenes: Clic a Clic y OCR Veloz (1-44)")
+st.set_page_config(page_title="Control de Trenes", layout="wide", page_icon="")
+st.title("Verificador trenes")
 
 # --- 1. CARPETA LOCAL PARA SERVIR LA IMAGEN ---
 os.makedirs("frontend_componente", exist_ok=True)
